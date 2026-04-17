@@ -1,73 +1,55 @@
 body {
+    background-color: #dcdcdc;
     font-family: Arial, sans-serif;
-    background-color: #aeb9c6; /* background luar */
-    margin: 0;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
 }
 
 /* Header */
 .header {
-    background-color: #5c86a8; /* biru lembut */
-    color: white;
+    background-color: #5b86a6;
     padding: 20px;
-    text-align: center;
+    color: white;
 }
 
 /* Menu */
-.menu {
-    background-color: #4f7c9c; /* lebih gelap dikit */
-}
-
 .menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.menu ul li {
-    float: left;
+    list-style: disc;
+    padding-left: 20px;
 }
 
 .menu ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: white;
+    color: purple;
     text-decoration: none;
 }
 
-.menu ul li a:hover {
-    background-color: #6c97b8; /* hover lebih terang */
-}
-
-/* Content */
+/* Konten */
 .content {
-    display: flex;
-    background-color: #f2f2f2; /* agak abu terang */
-    padding: 20px;
+    margin-top: 10px;
 }
 
-/* Box */
-.box {
-    border: 1px solid #7fa6c2;
-    background-color: #ffffff;
-    padding: 15px;
-    margin-bottom: 15px;
+button {
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
-/* Sidebar */
-.sidebar ul li {
-    color: #3d6f99;
+/* Kategori */
+.kategori ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.kategori ul li {
+    margin: 5px 0;
+}
+
+.kategori ul li a {
+    color: purple;
+    text-decoration: none;
 }
 
 /* Footer */
 .footer {
-    background-color: #5c86a8;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    margin-top: 20px;
+    font-size: 12px;
 }
