@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #a9b6c6;
+    background-color: #aeb9c6; /* background luar */
     margin: 0;
 }
 
@@ -11,7 +11,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #4b88bb;
+    background-color: #5c86a8; /* biru lembut */
     color: white;
     padding: 20px;
     text-align: center;
@@ -19,7 +19,7 @@ body {
 
 /* Menu */
 .menu {
-    background-color: #3d6f99;
+    background-color: #4f7c9c; /* lebih gelap dikit */
 }
 
 .menu ul {
@@ -41,50 +41,32 @@ body {
 }
 
 .menu ul li a:hover {
-    background-color: #4b88bb;
+    background-color: #6c97b8; /* hover lebih terang */
 }
 
 /* Content */
 .content {
     display: flex;
-    background-color: white;
+    background-color: #f2f2f2; /* agak abu terang */
     padding: 20px;
 }
 
-/* Main */
-.main {
-    width: 70%;
-}
-
+/* Box */
 .box {
-    border: 1px solid #4b88bb;
+    border: 1px solid #7fa6c2;
+    background-color: #ffffff;
     padding: 15px;
     margin-bottom: 15px;
 }
 
-.box button {
-    padding: 5px 10px;
-}
-
 /* Sidebar */
-.sidebar {
-    width: 30%;
-    padding-left: 20px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
 .sidebar ul li {
-    color: blue;
-    margin-bottom: 5px;
+    color: #3d6f99;
 }
 
 /* Footer */
 .footer {
-    background-color: #4b88bb;
+    background-color: #5c86a8;
     color: white;
     text-align: center;
     padding: 10px;
